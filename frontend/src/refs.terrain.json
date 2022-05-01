@@ -7,27 +7,27 @@
       }
     },
     "oracle": {
-      "codeId": "66273",
+      "codeId": "68128",
       "contractAddresses": {
-        "default": "terra1yhlp5zxct4cm0raud2hl72sa6qqejejmehua2q"
+        "default": "terra1w7qj7e0nd9wexuz4p2v69cwnt9nh5u76pqh4zw"
       }
     },
     "swap": {
-      "codeId": "66278",
+      "codeId": "68428",
       "contractAddresses": {
-        "default": "terra18cxfw00y7x7596j4xcft28hutxp269htl66c9g"
+        "default": "terra18aj0e4hdspspzz9hp0skdtvefzhf9xpfpvreh3"
       }
     },
     "swap2": {
-      "codeId": "66621",
+      "codeId": "68632",
       "contractAddresses": {
-        "default": "terra1f7vnhhk24jmaxp2tdgf906yy980yg3c4h8f05h"
+        "default": "terra1t63nqq6xevumff4gaw6lu72gj27nf6a3nl9dkz"
       }
     },
     "cw20_token": {
-      "codeId": "67526",
+      "codeId": "68127",
       "contractAddresses": {
-        "default": "terra13v3ncryrfhpfrk6a2lvsn0uhnz64lwqxwqt2tp"
+        "default": "terra18lmfqfdupmlpfktxc8vple3uf6yg6t00dguxzv"
       }
     }
   }

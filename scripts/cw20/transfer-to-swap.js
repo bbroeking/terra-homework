@@ -7,8 +7,8 @@ const wallet = wallets.brianKey;
 const execute = new MsgExecuteContract(
     wallet.key.accAddress, // sender
     contract, // contract account address
-    { transfer: { recipient: "terra1s2quwpvlqqezdseemhhntculk4s2urj5mzxjq4", amount: "2000000000" } }, // handle msg
-    { uluna: 100000 } // coins
+    { transfer: { recipient: "terra1t63nqq6xevumff4gaw6lu72gj27nf6a3nl9dkz", amount: "2000000000" } }, // handle msg
+    { uluna: 10000 } // coins
 );
 
 const executeTx = await wallet.createAndSignTx({

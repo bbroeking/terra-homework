@@ -13,6 +13,12 @@ pub enum ContractError {
     #[error("quantity is invalid")]
     InvalidQuantity,
 
+    #[error("divison error")]
+    DivisionError,
+
+    #[error("not enough token to swap")]
+    NotEnoughTokenToSwap,
+
     #[error("Not implemented")]
     NotImplemented {},
 }

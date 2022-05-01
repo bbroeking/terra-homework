@@ -18,3 +18,8 @@ pub enum QueryMsg {
     // GetCount returns the price in LUNA as a json-encoded number
     QueryPrice {},
 }
+
+#[derive(Serialize, Deserialize, Clone, PartialEq, JsonSchema, Debug)]
+pub struct PriceResponse {
+    pub price: u64,
+}

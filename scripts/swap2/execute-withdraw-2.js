@@ -12,7 +12,7 @@ const wallet = wallets.brianKey;
 const msg = new MsgExecuteContract(
     wallet.key.accAddress,
     contract, {
-        withdraw: { amount: 1 },
+        withdraw_step2_convert_rewards_to_luna: { amount: 1 },
     },
 );
 

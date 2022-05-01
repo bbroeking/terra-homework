@@ -19,6 +19,9 @@ pub enum ContractError {
     #[error("Unknown Error")]
     UnknownError {},
 
+    #[error("divison error")]
+    DivisionError,
+
     #[error("Not implemented")]
     NotImplemented {},
 }

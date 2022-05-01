@@ -474,6 +474,7 @@ dependencies = [
  "cw2",
  "schemars",
  "serde",
+ "shared",
  "thiserror",
 ]
 
@@ -693,7 +694,6 @@ dependencies = [
  "cw20 0.8.1",
  "schemars",
  "serde",
- "shared",
  "terra-cosmwasm",
  "thiserror",
 ]
